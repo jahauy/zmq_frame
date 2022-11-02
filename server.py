@@ -20,7 +20,7 @@ class Camera(cv.VideoCapture):
             return None
         return frame
 
-    def update(self)
+    def update(self):
         frame = self._update()
         if frame is None:
             print('[ERROR]No infos.')
